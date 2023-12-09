@@ -5032,13 +5032,13 @@ tbody.collapse.show {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
+  color: #f00;
+    text-shadow: 0 1px 0 #f00;
   opacity: 0.5;
 }
 .close:focus,
 .close:hover {
-  color: #000;
+  color: #f00;
   text-decoration: none;
   opacity: 0.75;
 }
@@ -5109,7 +5109,7 @@ button.close {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   outline: 0;
 }
 .modal-backdrop {
